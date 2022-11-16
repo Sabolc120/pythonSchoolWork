@@ -1,0 +1,232 @@
+
+body {
+    background-image: url("./bcg7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  
+  .navbar-collapse {
+      flex-grow: 0;
+      border-bottom: 1px solid black;
+    }
+ 
+#táblázat {
+    padding-top: 200px;
+
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+
+body {
+  background-color: #eef1ff;
+  margin: 100px;
+  margin-left: 100px;
+  overflow-x: hidden;
+}
+
+#logotitle {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#carDetails {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+navbar-brand {
+  width: 50%;
+}
+
+#list {
+  font-size: 17px;
+  border-radius: 60px;
+  height: 45px;
+  width: 80%;
+  /* text-align: center; */
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 0.01em;
+  line-height: 0;
+  color: rgba(0, 0, 0, 0.447);
+  border: 1px solid black;
+}
+
+#formDiv {
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 500px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  background-color: transparent;
+  border-radius: 40px;
+  translate: -50%, 0;
+}
+
+/* FORM - ADD NEW CAR */
+#formRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+#buttonRow {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sub {
+  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 25px 20px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  width: 50%;
+  /* z-index: 1; */
+}
+
+#sub:hover,
+#sub:focus {
+  color: white;
+  background-color: #b1b2ff;
+}
+
+.question {
+  /* position: relative; */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  appearance: none;
+  background-color: none;
+  border: 1px solid rgb(0, 0, 0);
+  line-height: 0;
+  font-size: 17px;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+input:focus {
+  outline: none;
+  background: #d2daff;
+  color: rgb(0, 0, 0);
+}
+
+#viewTitle {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+
+.thead-dark {
+  background-color: black;
+  color: white;
+}
+
+#list:focus {
+  outline: none;
+  background: #d2daff;
+  color: rgb(0, 0, 0);
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  
+}
+@media only screen and (max-width: 640px) {
+  #fomenu-flex {
+    display: grid;
+    margin-bottom: 30px;
+  }
+
+  input[type="text"] {
+    appearance: none;
+    background-color: none;
+    border: 1px solid rgb(0, 0, 0);
+    line-height: 0;
+    font-size: 17px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+  }
+
+  #formDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    min-width: 500px;
+    margin-top: 20px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 40px;
+    /* left: 50%; */
+    translate: -50%, 0;
+  }
+}
+tableclass {
+    margin-bottom: 100px;
+    background-color: beige;
+  }
+  
+  #adat{
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-family: "Josefin Sans", "sans serif";
+  }
+  a.nav-link{
+    color: black;
+    text-decoration: none;
+  }
